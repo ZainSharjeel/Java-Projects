@@ -1,0 +1,42 @@
+import java.util.*;
+public class ArrayAddition {
+
+
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the size 1 of array 1");
+        int size1=input.nextInt();
+        System.out.println("Enter the size 2 of array 1");
+        int size2=input.nextInt();
+        System.out.println("Enter the size 1 of array 2");
+        int size3=input.nextInt();
+        System.out.println("Enter the size 2 of array 2");
+        int size4=input.nextInt();
+        int [][]arr1=new int[size1][size2];
+        int [][]arr2=new int[size3][size4];
+        System.out.println("Enter the values of array 1");
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = 0; j < arr1[i].length; j++) {
+                arr1[i][j]=input.nextInt();
+            }
+        }
+        System.out.println("Enter the values of array 2");
+        for (int i = 0; i < arr2.length; i++) {
+            for (int j = 0; j < arr2[i].length; j++) {
+                arr1[i][j]=input.nextInt();
+            }
+        }
+
+        int [][]sum=new int[3][3];
+            for (int i = 0; i < 3; i++) {
+                for (int j = 0; j < 3; j++) {
+                    for (int k = 0; k < 3; k++) {
+                        sum[i][j] = arr1[i][k] + arr2[j][k];
+                    }
+                    System.out.print(sum[i][j] + " ");
+                }
+                System.out.println();
+            }
+        }
+    }
+
