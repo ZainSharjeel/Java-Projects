@@ -1,0 +1,12 @@
+public static void display()
+	{
+		for (int count=1; count<=1; count++)
+		{
+			System.out.println("");
+			for (int count2=1; count2<=1; count2++)
+			{
+				System.out.print("| 5 |  |  |  | 7|  |  |  |  |\n| 6 |  |  | 1| 9| 5|  |  |  |\n|  | 9| 8|  |  |  |  | 6|  |\n| 8 |  |  |  | 6|  |  |  | 3|\n| 4 |  |  | 8|  | 3|  |  | 1|\n| 7 |  |  |  | 2|  |  |  | 6|\n|   | 6|  |  |  |  |  |  |  |\n|  |  |  | 4| 1| 9|  |  | 5|\n|  |  |  |  | 8|  |  | 7| 9|");         
+				}
+		System.out.println("\n");
+			}
+		}
